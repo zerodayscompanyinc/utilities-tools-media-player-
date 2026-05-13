@@ -8,7 +8,7 @@ Supports audio, video, YouTube playback, playlist management, quick-access sessi
 ## 🌐 Live site
 
 ### HTTPS
-- [ZeroDays Media Player (Secure)](https://mediaplayer-no-ads.vercel.app/?utm_source=chatgpt.com)
+- [ZeroDays Media Player (Secure)](https://media-player-no-ads.vercel.app/?utm_source=chatgpt.com)
 
 ### HTTP
 - [ZeroDays Media Player (HTTP)](http://media-player.ultimatetool.2bd.net/?utm_source=chatgpt.com)
