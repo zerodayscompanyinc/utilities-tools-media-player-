@@ -26,8 +26,8 @@ Supports audio, video, YouTube, Spotify, and SoundCloud playback. Features a loc
 - **YouTube Integration**: Automatically converts standard YouTube links to embeddable iframes.
 - **oEmbed Platform Support**: Automatically fetches and embeds players for:
   - **Spotify** (Tracks/Playlists) 
-  - **SoundCloud** ( working on pc/laptop/computer, no android/ios)
-  - **Mixcloud**
+  - **SoundCloud** (working on pc/laptop/computer, no android/ios)
+  - **Mixcloud** (working on pc/laptop/computer, no android/ios)
   - **Deezer**
   - **Apple Music**
 - **Local Files**: Drag & drop or select local audio/video files for instant playback.
