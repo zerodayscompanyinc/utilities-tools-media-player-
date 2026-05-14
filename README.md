@@ -28,7 +28,7 @@ Supports audio, video, YouTube, Spotify, and SoundCloud playback. Features a loc
   - **Spotify** (Tracks/Playlists) 
   - **SoundCloud** (working on pc/laptop/computer, no android/ios)
   - **Mixcloud** (working on pc/laptop/computer, no android/ios)
-  - **Deezer**
+  - **Deezer** (under issues or under process to fix it)
   - **Apple Music**
 - **Local Files**: Drag & drop or select local audio/video files for instant playback.
 - **Visualizer**: Real-time Canvas-based audio spectrum visualizer with dynamic color bars.
