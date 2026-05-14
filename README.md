@@ -25,7 +25,7 @@ Supports audio, video, YouTube, Spotify, and SoundCloud playback. Features a loc
 - **Audio & Video**: Native playback for MP3, MP4, WebM, OGG, WAV, FLAC, M4A, AAC, MKV, AVI.
 - **YouTube Integration**: Automatically converts standard YouTube links to embeddable iframes.
 - **oEmbed Platform Support**: Automatically fetches and embeds players for:
-  - **Spotify** (Tracks/Playlists) - reviews song only no full songs
+  - **Spotify** (Tracks/Playlists) 
   - **SoundCloud**
   - **Mixcloud**
   - **Deezer**
