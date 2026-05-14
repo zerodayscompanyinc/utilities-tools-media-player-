@@ -1,11 +1,15 @@
+ Here is the updated `README.md` documentation based on the provided code.
+
+***
+
 # ZeroDays Media Player
 
-A modern cyber-themed media player built with pure HTML, CSS, and JavaScript.  
-Supports audio, video, YouTube playback, playlist management, quick-access sessions, local account storage, and Progressive Web App (PWA) installation.
+A modern, cyber-themed media player built with pure HTML, CSS, and JavaScript.  
+Supports audio, video, YouTube, Spotify, and SoundCloud playback. Features a local encrypted account system, playlist management, quick-access sessions, drag-and-drop file support, and PWA capabilities.
 
 ---
 
-## 🌐 Live site
+## 🌐 Live Site
 
 ### HTTPS
 - [ZeroDays Media Player (Secure)](https://media-player-no-ads.vercel.app/?utm_source=chatgpt.com)
@@ -17,160 +21,113 @@ Supports audio, video, YouTube playback, playlist management, quick-access sessi
 
 # ✨ Features
 
-## 🎵 Media Playback
-- Audio playback support
-- Video playback support
-- Embedded YouTube player
-- MP3 / MP4 / WebM / OGG support
-- Spotify preview URL support
-- Drag & drop media URLs
-- Playlist system
-- Shuffle playlist
-- Remove tracks
-- Previous / Next controls
-- Repeat mode
-- Volume control
+## 🎵 Media Playback & Universal Support
+- **Audio & Video**: Native playback for MP3, MP4, WebM, OGG, WAV, FLAC, M4A, AAC, MKV, AVI.
+- **YouTube Integration**: Automatically converts standard YouTube links to embeddable iframes.
+- **oEmbed Platform Support**: Automatically fetches and embeds players for:
+  - **Spotify** (Tracks/Playlists)
+  - **SoundCloud**
+  - **Mixcloud**
+  - **Deezer**
+  - **Apple Music**
+- **Local Files**: Drag & drop or select local audio/video files for instant playback.
+- **Visualizer**: Real-time Canvas-based audio spectrum visualizer with dynamic color bars.
 
----
+## 🎛️ Playback Controls
+- Play / Pause / Next / Previous
+- Volume Control with Slider
+- Repeat Mode Toggle (Off/On)
+- Track Filtering: All, Audio, Video, Favorites.
+- Searchable Playlist
+- Shuffle Playlist
+- Remove individual tracks or clear all.
 
-## 👤 Global Account System
-- Local account registration
-- Secure login system
-- Password reset feature
-- Persistent sessions
-- Quick Access instant login
-- Local encrypted user storage
-- Multi-user playlist saving
-- Automatic playlist sync
+## 👤 Local Account System
+- **Encrypted Storage**: User data is stored locally using a custom XOR-based encryption layer.
+- **Authentication**:
+  - **Standard**: Register/Login using Email and Password.
+  - **Quick Access**: Instant session creation using any username (no password required).
+  - **Password Reset**: Local password reset functionality via email verification.
+- **Session Persistence**: User sessions and playlists remain active after closing the browser.
+- **Multi-user Support**: Each user (email or quick-access) has their own isolated playlist.
 
----
-
-## ⚡ Quick Access Mode
-- No password required
-- Instant session creation
-- Fast local access
-- Auto-save session state
-- Guest-friendly usage
-
----
-
-## 📋 Playlist Features
-- Dynamic playlist rendering
-- Current track highlighting
-- Playlist persistence
-- Local sync saving
-- User-specific playlists
-- Guest playlist mode
-
----
-
-## 🎨 User Interface
-- Cyber-themed dark UI
-- Background video support
-- Glassmorphism effects
-- Responsive mobile layout
-- Animated hover effects
-- Modern control panels
-- Interactive buttons
-- Smooth transitions
-
----
-
-## 📊 Audio Visualizer
-- Real-time audio spectrum visualizer
-- Canvas-based rendering
-- Animated frequency bars
-- Dynamic color effects
-- Web Audio API integration
-
----
+## ⌨️ Keyboard Shortcuts
+- `Space`: Play / Pause
+- `→`: Next Track
+- `←`: Previous Track
+- `↑`: Volume Up
+- `↓`: Volume Down
+- `R`: Toggle Repeat
+- `F`: Toggle Favorite (Current Track)
+- `ESC`: Close Shortcut Overlay
 
 ## 📱 Progressive Web App (PWA)
-- Installable web application
-- Mobile-friendly design
-- PWA install prompt
-- App-like experience
-- Standalone support
-- Home screen installation
-
-> If PWA install is unsupported on your browser/device, some install functionality may not appear.
-
----
-
-# 🔐 Security & Storage
-
-## Local Encryption
-The application includes:
-- Encrypted localStorage database
-- Simple XOR-based obfuscation
-- Session persistence
-- Local-only authentication
-
-## No External API Keys
-- No backend required
-- No server authentication
-- No external login APIs
-- Fully frontend-based architecture
+- Installable on supported browsers and mobile devices.
+- App-like interface with "Install App" button.
+- Optimized for standalone mobile usage.
 
 ---
 
 # 🛠️ Built With
 
-- HTML5
-- CSS3
-- JavaScript (Vanilla JS)
-- Web Audio API
-- Canvas API
-- LocalStorage API
-- PWA APIs
+- **HTML5**: Semantic structure and Media elements.
+- **CSS3**: Flexbox/Grid layouts, Glassmorphism, Cyber-aesthetic styling, Animations.
+- **JavaScript (Vanilla)**:
+  - Web Audio API (for the visualizer).
+  - Canvas API (for rendering).
+  - LocalStorage API (for data persistence).
+  - Fetch API (for oEmbed data).
+  - File API (for local file handling).
+  - Crypto (custom XOR obfuscation).
 
 ---
 
 # 📦 Supported Media Types
 
-| Type | Supported |
-|------|------------|
-| MP3 | ✅ |
-| MP4 | ✅ |
-| WebM | ✅ |
-| OGG | ✅ |
-| MKV | ✅ |
-| YouTube Links | ✅ |
-| Spotify Preview Links | ✅ |
+| Type | Format/Platform | Support Status |
+|------|-----------------|----------------|
+| **Audio** | MP3, WAV, OGG, FLAC, M4A, AAC | ✅ Native |
+| **Video** | MP4, WebM, MKV, AVI, MOV | ✅ Native |
+| **Streaming** | YouTube | ✅ Iframe Embed |
+| **Streaming** | Spotify | ✅ oEmbed Integration |
+| **Streaming** | SoundCloud | ✅ oEmbed Integration |
+| **Streaming** | Deezer, Mixcloud | ✅ oEmbed Integration |
+| **Local Files** | Drag & Drop / File Select | ✅ Blob URL |
 
 ---
 
-# 📱 Responsive Design
-
-Optimized for:
-- Desktop
-- Mobile
-- Tablet
-- Progressive Web App environments
-
----
-
-# 🚀 Installation
+# 🚀 Installation & Usage
 
 ## Local Usage
-1. Download the project files
-2. Open `index.html`
-3. Start using the media player
+1. Download the source code (single `index.html` file recommended).
+2. Open `index.html` in any modern web browser.
+3. Allow permission for Audio Context if prompted (for the visualizer).
 
 ## PWA Installation
-1. Open the HTTPS version
-2. Click `INSTALL APP`
-3. Add to home screen
+1. Open the **HTTPS** version of the site.
+2. Click the **📱 INSTALL APP** button in the header.
+3. Follow the browser prompt to add to your home screen.
+
+---
+
+# 🔐 Security & Storage Architecture
+
+## Data Privacy
+- **Local-Only**: All data (playlists, user credentials) is stored in the user's browser `localStorage`.
+- **No Server**: No data is sent to external servers (except for fetching public oEmbed data from Spotify/SoundCloud).
+- **Encryption**: User database is obfuscated using a Base64 + XOR cipher before storage.
+
+## Account Sync
+- Playlists are automatically synced to the currently logged-in user's profile.
+- "Guest" mode uses a local generic playlist if no user is logged in.
 
 ---
 
 # ⚠️ Notes
 
-- This project uses local browser storage only.
-- Accounts are stored locally on the user's browser.
-- No cloud database is included.
-- Some media providers may restrict playback.
-- YouTube playback uses iframe embedding.
+- **CORS & Embeds**: Some streaming platforms (like Spotify) may restrict playback based on geographical location or browser embedding policies.
+- **Local Files**: Local file URLs (`blob:`) are temporary and will be lost if the page is refreshed completely (re-adding files is required).
+- **iOS PWA**: Visualizer and autoplay features may behave differently on iOS due to system restrictions.
 
 ---
 
