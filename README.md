@@ -20,7 +20,7 @@ Supports audio, video, YouTube, Spotify, and SoundCloud playback. Features a loc
 ### check the version too?
 - [Zerodays Media-player](https://mplayertools.edgeone.app/) version: 1.50.90
 - [Zerodays Media-player](https://media-player2-phi.vercel.app/) version: 1.50.100 (under issue through Google features)/(problem)
-
+- [Zerodays Media-player](https://mplayert00l.edgeone.app/) version:1.50.80 (under issue through Google features)/(problem)
 ---
 
 # ✨ Features
