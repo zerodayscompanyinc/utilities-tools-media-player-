@@ -17,6 +17,10 @@ Supports audio, video, YouTube, Spotify, and SoundCloud playback. Features a loc
 ### HTTP
 - [ZeroDays Media Player (HTTP)](http://media-player.ultimatetool.2bd.net/?utm_source=chatgpt.com)
 
+### check the version too?
+- [Zerodays Media-player](https://mplayertools.edgeone.app/) version: 1.50.90
+- [Zerodays Media-player](https://media-player2-phi.vercel.app/) version: 1.50.100
+
 ---
 
 # ✨ Features
